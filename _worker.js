@@ -24,3 +24,4 @@ async function handleRequest(request) {
   // 添加允许跨域访问的响应头
   modifiedResponse.headers.set('Access-Control-Allow-Origin', headers_Origin);
   return modifiedResponse;
+}
